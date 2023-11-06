@@ -1,0 +1,79 @@
+{
+  "definitions": {
+    "SliderLel": {
+      "type": "object",
+      "properties": {
+        "autoplay": {
+          "type": "boolean",
+          "title": "AutoPlay",
+          "default": true
+        },
+        "autoplaySpeed": {
+          "type": "number",
+          "title": "Velocidade do AutoPlay",
+          "default": 6000
+        },
+        "arrowsDesk": {
+          "type": "boolean",
+          "title": "Setas Desktop",
+          "default": true
+        },
+        "centerModeDesk": {
+          "type": "boolean",
+          "title": "CenterMode Desktop",
+          "default": true
+        },
+        "centerPaddingDesk": {
+          "type": "string",
+          "title": "Espaçamento CenterMode Desktop",
+          "default": "130px"
+        },
+        "slidesToShowDesk": {
+          "type": "number",
+          "title": "Mostrar Slides Desktop",
+          "default": 3
+        },
+        "arrowsPhone": {
+          "type": "boolean",
+          "title": "Setas Celular",
+          "default": true
+        },
+        "centerModePhone": {
+          "type": "boolean",
+          "title": "CenterMode Celular",
+          "default": true
+        },
+        "centerPaddingPhone": {
+          "type": "string",
+          "title": "Espaçamento CenterMode Celular",
+          "default": "20%"
+        },
+        "slidesToShowPhone": {
+          "type": "number",
+          "title": "Mostrar Slides Phone",
+          "default": 1
+        },
+        "arrowsTablet": {
+          "type": "boolean",
+          "title": "Setas Tablet",
+          "default": true
+        },
+        "centerModeTablet": {
+          "type": "boolean",
+          "title": "CenterMode Tablet",
+          "default": true
+        },
+        "centerPaddingTablet": {
+          "type": "string",
+          "title": "Espaçamento CenterMode Tablet",
+          "default": "20%"
+        },
+        "slidesToShowTablet": {
+          "type": "number",
+          "title": "Mostrar Slides Tablet",
+          "default": 2
+        }
+      }
+    }
+  }
+}

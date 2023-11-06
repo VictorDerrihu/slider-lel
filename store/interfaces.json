@@ -1,5 +1,8 @@
 {
-  "countdown": {
-    "component": "Countdown"
+  "slider-lel": {
+    "component": "SliderLel",
+    "content": {
+      "$ref": "app:lojalivreeleve.slider-lel#/definitions/SliderLel"
+    }
   }
 }
