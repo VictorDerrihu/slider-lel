@@ -4,6 +4,7 @@ import { useDevice } from 'vtex.device-detector'
 import Slider from 'react-slick'
 import { useCssHandles } from 'vtex.css-handles'
 
+import { NextArrow } from '../NextArrow'
 import { ArrowSlider } from '../SvgsComponents/ArrowSlider'
 
 interface SlickSliderProps {
@@ -55,7 +56,7 @@ export const SliderLel: StorefrontFunctionComponent<SlickSliderProps> = ({
       centerMode: centerModePhone,
       centerPadding: centerPaddingPhone,
       slidesToShow: slidesToShowPhone,
-      nextArrow: <NewNextArrow />,
+      nextArrow: <NextArrow />,
       prevArrow: <NewPrevArrow />,
     }
   }
@@ -85,6 +86,7 @@ export const SliderLel: StorefrontFunctionComponent<SlickSliderProps> = ({
       draggable: false,
       nextArrow: <NewNextArrow />,
       prevArrow: <NewPrevArrow />,
+      dots: true,
     }
   }
 
