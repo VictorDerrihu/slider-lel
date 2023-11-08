@@ -8,7 +8,6 @@ The Slider-Lel is a tailor-made solution to enhance the shopping experience in s
 
 - **React Slick:** We've harnessed the power of the React Slick library to create a highly customizable and responsive Slider, delivering an enhanced shopping experience for your customers.
 
-- **Image Resizing:** We've implemented an image resizing feature to fine-tune performance, ensuring that images load efficiently while maintaining visual quality.
 
 - **Effortless Customization:** Through the Site Editor, you can easily personalize components such as arrows and dots to align with your store's unique identity.
 

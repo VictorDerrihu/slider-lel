@@ -1,0 +1,11 @@
+.AppendDots-active li[class="slick-active"] > div > div {
+  height: 12px;
+    width: 28px;
+    background-color:#e7ddc9;
+    border-radius: 78px;
+    border: none;
+}
+
+.Slider-lel--ArrowFalse button {
+  display: none;
+}

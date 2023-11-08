@@ -29,7 +29,7 @@
     "apollo-cache-inmemory": "^1.6.5",
     "apollo-client": "^2.5.1",
     "graphql": "^14.6.0",
-    "lojalivreeleve.slider-lel": "https://victornewsite--lojalivreeleve.myvtex.com/_v/private/typings/linked/v1/lojalivreeleve.slider-lel@0.0.1+build1698868351/public/@types/lojalivreeleve.slider-lel",
+    "lojalivreeleve.slider-lel": "https://victornewsite--lojalivreeleve.myvtex.com/_v/private/typings/linked/v1/lojalivreeleve.slider-lel@0.0.1+build1699470392/public/@types/lojalivreeleve.slider-lel",
     "typescript": "3.9.7",
     "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles",
     "vtex.device-detector": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.device-detector@0.2.6/public/@types/vtex.device-detector",

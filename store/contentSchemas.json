@@ -10,68 +10,85 @@
         },
         "autoplaySpeed": {
           "type": "number",
-          "title": "Velocidade do AutoPlay",
-          "default": 6000
+          "title": "Velocidade do Autoplay",
+          "default": 6000,
+          "description": "(em milisegundos)"
         },
-        "arrowsDesk": {
+        "infinite": {
           "type": "boolean",
-          "title": "Setas Desktop",
+          "title": "Slide infinito",
           "default": true
         },
-        "centerModeDesk": {
-          "type": "boolean",
-          "title": "CenterMode Desktop",
-          "default": true
-        },
-        "centerPaddingDesk": {
-          "type": "string",
-          "title": "Espaçamento CenterMode Desktop",
-          "default": "130px"
-        },
-        "slidesToShowDesk": {
+        "speed": {
           "type": "number",
-          "title": "Mostrar Slides Desktop",
+          "title": "Velocidade da transição",
+          "default": 500,
+          "description": "(em milisegundos)"
+        },
+        "dotsEnable": {
+          "type": "boolean",
+          "title": "Dots Slide",
+          "default": true
+        },
+        "centerMode": {
+          "type": "boolean",
+          "title": "Modo centralizado",
+          "default": false
+        },
+        "arrowsEnable": {
+          "type": "boolean",
+          "title": "Setas",
+          "default": true
+        },
+        "draggable": {
+          "type": "boolean",
+          "title": "Arrastar (Desktop)",
+          "default": false
+        },
+        "slidesToShow": {
+          "type": "number",
+          "title": "Mostrar Slides (Desktop)",
           "default": 3
         },
-        "arrowsPhone": {
-          "type": "boolean",
-          "title": "Setas Celular",
-          "default": true
-        },
-        "centerModePhone": {
-          "type": "boolean",
-          "title": "CenterMode Celular",
-          "default": true
-        },
-        "centerPaddingPhone": {
-          "type": "string",
-          "title": "Espaçamento CenterMode Celular",
-          "default": "20%"
-        },
-        "slidesToShowPhone": {
+        "slidesToScroll": {
           "type": "number",
-          "title": "Mostrar Slides Phone",
+          "title": "Passar Slides (Desktop)",
           "default": 1
         },
-        "arrowsTablet": {
-          "type": "boolean",
-          "title": "Setas Tablet",
-          "default": true
-        },
-        "centerModeTablet": {
-          "type": "boolean",
-          "title": "CenterMode Tablet",
-          "default": true
-        },
-        "centerPaddingTablet": {
+        "centerPadding": {
           "type": "string",
-          "title": "Espaçamento CenterMode Tablet",
-          "default": "20%"
+          "title": "Padding CenterMode (Desktop)",
+          "default": "50px"
         },
         "slidesToShowTablet": {
           "type": "number",
-          "title": "Mostrar Slides Tablet",
+          "title": "Mostrar Slides (Tablet)",
           "default": 2
+        },
+        "slidesToScrollTablet": {
+          "type": "number",
+          "title": "Passar Slides (Tablet)",
+          "default": 1
+        },
+        "centerPaddingTablet": {
+          "type": "string",
+          "title": "Padding CenterMode (Tablet)",
+          "default": "50px"
+        },
+        "slidesToShowPhone": {
+          "type": "number",
+          "title": "Mostrar Slides (Phone)",
+          "default": 1
+        },
+        "slidesToScrollPhone": {
+          "type": "number",
+          "title": "Passar Slides (Phone)",
+          "default": 1
+        },
+        "centerPaddingPhone": {
+          "type": "string",
+          "title": "Padding CenterMode (Phone)",
+          "default": "50px"
         }
       }
     }
