@@ -30,6 +30,16 @@
           "title": "Dots Slide",
           "default": true
         },
+        "pauseOnHover": {
+          "type": "boolean",
+          "title": "Pausar em Hover",
+          "default": true
+        },
+        "rtl": {
+          "type": "boolean",
+          "title": "Direita para esquerda",
+          "default": false
+        },
         "centerMode": {
           "type": "boolean",
           "title": "Modo centralizado",

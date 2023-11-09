@@ -1,3 +1,6 @@
+/* .AppendDots-active is responsible for styling the active dot.  */
+/*  .AppendDots-active é responsável pela estilização do 'dot' ativo . */
+
 .AppendDots-active li[class="slick-active"] > div > div {
   height: 12px;
     width: 28px;
@@ -5,6 +8,9 @@
     border-radius: 78px;
     border: none;
 }
+
+/* .Slider-lel--ArrowFalse is responsible for the buttons when the arrow option is deactivated.  */
+/* .Slider-lel--ArrowFalse é responsavel pelos buttons quando a opção de arrow for desativada . */
 
 .Slider-lel--ArrowFalse button {
   display: none;

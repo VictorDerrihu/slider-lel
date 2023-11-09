@@ -1,3 +1,6 @@
+// This component is primarily responsible for the properties, classes, and the entire slider.
+// Este componente é o principal responsavel pelas propriedades , classes e todo o slider .
+
 import React from 'react'
 import { useListContext } from 'vtex.list-context'
 import Slider from 'react-slick'
@@ -27,6 +30,8 @@ interface SlickSliderProps {
   slidesToScrollPhone: number
   centerPaddingPhone: string
   draggable: boolean
+  pauseOnHover: boolean
+  rtl: boolean
 }
 const CSS_HANDLES = [
   'Slider-lel',
@@ -45,6 +50,8 @@ export const SliderLel: StorefrontFunctionComponent<SlickSliderProps> = ({
   centerMode,
   arrowsEnable,
   draggable,
+  pauseOnHover,
+  rtl,
   centerPadding,
   centerPaddingPhone,
   centerPaddingTablet,
@@ -62,6 +69,8 @@ export const SliderLel: StorefrontFunctionComponent<SlickSliderProps> = ({
     infinite,
     speed,
     dots: dotsEnable,
+    pauseOnHover,
+    rtl,
     centerMode,
     arrows: true,
     nextArrow: <NextArrow />,

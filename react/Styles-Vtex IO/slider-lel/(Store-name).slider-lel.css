@@ -1,0 +1,91 @@
+.Slider-lel--slider-lel,.Slider-lel--ArrowFalse{
+    position: relative;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Slider-lel--slider-lel :not(:first-child):not(:last-child),.Slider-lel--ArrowFalse :not(:last-child) {
+    overflow: hidden;
+}
+
+.Slider-lel--slider-lel :not(:first-child):not(:last-child) :first-child, .Slider-lel--ArrowFalse :not(:first-child):not(:last-child) :first-child{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+
+    display: flex;
+}
+
+
+.Slider-Lel--ButtonPrev {
+
+    left: 0;
+    transform: rotate(180deg);
+
+
+}
+.Slider-Lel--ButtonNext{
+    right: 0;
+
+}
+
+.Slider-Lel--ButtonPrev , .Slider-Lel--ButtonNext {
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    top: 0;
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    margin: 0;
+    background: transparent;
+}
+
+.AppendDots--DivMain{
+    position: absolute;
+    bottom: -32px;
+
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+.AppendDots--Ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    list-style: none;
+    gap: 4px;
+}
+
+.CustomPaging--DivMain{
+    height: 0.625rem;
+    width: 0.625rem;
+    border: 1px solid #d4d4d4;
+    background: #fff;
+    border-radius: 100%;
+    cursor: pointer;
+
+}
+
+
+
