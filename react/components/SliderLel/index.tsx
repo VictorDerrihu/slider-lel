@@ -76,7 +76,10 @@ export const SliderLel: StorefrontFunctionComponent<SlickSliderProps> = ({
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     appendDots: (
-      dots: React.ReactElement<any, string | React.JSXElementConstructor<any>>
+      dots: React.ReactElement<
+        unknown,
+        string | React.JSXElementConstructor<unknown>
+      >
     ) => <AppendDots dots={dots} />,
 
     customPaging: () => (
@@ -145,6 +148,6 @@ export const SliderLel: StorefrontFunctionComponent<SlickSliderProps> = ({
 
 SliderLel.getSchema = () => {
   return {
-    title: 'SlickSlider',
+    title: 'SliderLel - Config',
   }
 }

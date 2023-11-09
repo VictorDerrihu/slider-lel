@@ -9,7 +9,10 @@ import styles from '../SliderLel/styles/styles.css'
 const CSS_HANDLES = ['AppendDots--DivMain', 'AppendDots--Ul'] as const
 
 interface AppendDotsProps {
-  dots: React.ReactElement<any, string | React.JSXElementConstructor<any>>
+  dots: React.ReactElement<
+    unknown,
+    string | React.JSXElementConstructor<unknown>
+  >
 }
 
 export const AppendDots: React.FC<AppendDotsProps> = ({ dots }) => {
