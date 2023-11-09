@@ -153,6 +153,50 @@ These are the properties that have been used, tested, and adapted in the project
     
     *Description:* Enables or disables the slide arrows.
 
+### How to Use
+
+Simply include the "slider-lel" block within a "list-context" block.
+
+- **Example:**
+
+
+     "list-context.image-list#list-test": {
+        "title": "Banner Categorias",
+        "props": {
+            "blockClass": "list-nav-categories-slide",
+            "height": "fit-content",
+            "images": [
+                {
+                    "image": "assets/imgs/home/default_img.jpg",
+
+                    "link": {
+                        "url": "/moda-praia/saidas-de-praia",
+                        "attributeTitle": "Saida de praia"
+                    }
+                },
+                {
+                    "image": "assets/imgs/home/default_img.jpg",
+
+                    "link": {
+                        "url": "/moda-praia/saidas-de-praia",
+                        "attributeTitle": "Saida de praia"
+                    }
+                },
+            
+            ]
+        },
+
+        "children": ["slider-lel#Test"]
+
+        "slider-lel#classTest" : {
+            "props" : {
+                "blockClass" : "teste-class"
+                "arrows": true
+                "dots" false
+            }
+        }
+    }
+
 
 
 
