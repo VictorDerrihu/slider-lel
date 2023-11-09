@@ -1,6 +1,7 @@
 {
   "slider-lel": {
     "component": "SliderLel",
+    "composition": "children",
     "content": {
       "$ref": "app:lojalivreeleve.slider-lel#/definitions/SliderLel"
     }
