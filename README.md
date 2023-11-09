@@ -159,7 +159,7 @@ Simply include the "slider-lel" block within a "list-context" block.
 
 - **Example:**
 
-```
+ ```
      "list-context.image-list#list-test": {
         "title": "Banner Categorias",
         "props": {
@@ -195,11 +195,13 @@ Simply include the "slider-lel" block within a "list-context" block.
                 "dots" false
             }
         }
-    } ´´´ 
+    }
+  ```
 
     or pass the children directly to the slider-lel component.
+```
 
-    ```
+    
     "slider-lel#classTest" : {
             "props" : {
                 "blockClass" : "teste-class"
@@ -234,8 +236,6 @@ Simply include the "slider-lel" block within a "list-context" block.
             "textPosition": "CENTER"
         }
         }
-    
-    ```
 
 
 
