@@ -196,11 +196,12 @@ Simply include the "slider-lel" block within a "list-context" block.
             }
         }
     }
-  ```
 
-    or pass the children directly to the slider-lel component.
+
 ```
-
+ or pass the children directly to the slider-lel component.
+ 
+ ```
     
     "slider-lel#classTest" : {
             "props" : {
