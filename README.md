@@ -195,7 +195,47 @@ Simply include the "slider-lel" block within a "list-context" block.
                 "dots" false
             }
         }
+    } ´´´ 
+
+    or pass the children directly to the slider-lel component.
+
+    ```
+    "slider-lel#classTest" : {
+            "props" : {
+                "blockClass" : "teste-class"
+                "arrows": true
+                "dots" false
+            }
+
+            "children":["rich-text#categoryNav","rich-text#categories","rich-text#Test"]
+        },
+
+        "rich-text#categoryNav": {
+        "props": {
+            "blockClass": "nav-category-slide-text",
+            "text": "NAVEGUE POR ESTAMPAS",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
     }
+    "rich-text#categories": {
+        "props": {
+            "blockClass": "nav-category-slide-text",
+            "text": "Categories",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+        },
+        "rich-text#Test": {
+        "props": {
+            "blockClass": "nav-category-slide-text",
+            "text": "Teste",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+        }
+    
+    ```
 
 
 
