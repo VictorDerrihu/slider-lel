@@ -13,25 +13,25 @@ import { AppendDots } from '../AppendDots'
 import { CustomPaging } from '../CustomPaging'
 
 interface SlickSliderProps {
-  autoplay: boolean
-  autoplaySpeed: number
-  infinite: boolean
-  speed: number
-  centerMode: boolean
-  dotsEnable: boolean
-  arrowsEnable: boolean
-  slidesToShow: number
-  slidesToScroll: number
-  centerPadding: string
-  slidesToShowTablet: number
-  slidesToScrollTablet: number
-  centerPaddingTablet: string
-  slidesToShowPhone: number
-  slidesToScrollPhone: number
-  centerPaddingPhone: string
-  draggable: boolean
-  pauseOnHover: boolean
-  rtl: boolean
+  autoplay?: boolean
+  autoplaySpeed?: number
+  infinite?: boolean
+  speed?: number
+  centerMode?: boolean
+  dotsEnable?: boolean
+  arrowsEnable?: boolean
+  slidesToShow?: number
+  slidesToScroll?: number
+  centerPadding?: string
+  slidesToShowTablet?: number
+  slidesToScrollTablet?: number
+  centerPaddingTablet?: string
+  slidesToShowPhone?: number
+  slidesToScrollPhone?: number
+  centerPaddingPhone?: string
+  draggable?: boolean
+  pauseOnHover?: boolean
+  rtl?: boolean
 }
 const CSS_HANDLES = [
   'Slider-lel',
