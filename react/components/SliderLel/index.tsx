@@ -63,6 +63,8 @@ export const SliderLel: StorefrontFunctionComponent<SlickSliderProps> = ({
   slidesToShowTablet,
 }) => {
   const { device } = useDevice()
+  const list = useListContext()?.list ?? []
+  const slides = React.Children.toArray(children).concat(list)
   const settingsSlides = {
     autoplay,
     autoplaySpeed,
@@ -93,7 +95,11 @@ export const SliderLel: StorefrontFunctionComponent<SlickSliderProps> = ({
 
   if (device === 'phone') {
     deviceSlides = {
-      slidesToShow: slidesToShowPhone,
+      slidesToShow: slidesToShowPhone
+        ? slidesToShowPhone > 1 && slidesToShowPhone >= slides.length
+          ? slides.length - 1
+          : slidesToShowPhone
+        : null,
       slidesToScroll: slidesToScrollPhone,
       centerPadding: centerPaddingPhone,
     }
@@ -101,7 +107,11 @@ export const SliderLel: StorefrontFunctionComponent<SlickSliderProps> = ({
 
   if (device === 'tablet') {
     deviceSlides = {
-      slidesToShow: slidesToShowTablet,
+      slidesToShow: slidesToShowTablet
+        ? slidesToShowTablet > 1 && slidesToShowTablet >= slides.length
+          ? slides.length - 1
+          : slidesToShowTablet
+        : null,
       slidesToScroll: slidesToScrollTablet,
       centerPadding: centerPaddingTablet,
     }
@@ -110,17 +120,17 @@ export const SliderLel: StorefrontFunctionComponent<SlickSliderProps> = ({
   if (device === 'desktop') {
     deviceSlides = {
       draggable,
-      slidesToShow,
+      slidesToShow: slidesToShow
+        ? slidesToShow > 1 && slidesToShow >= slides.length
+          ? slides.length - 1
+          : slidesToShow
+        : null,
       slidesToScroll,
       centerPadding,
     }
   }
-  // eslint-disable-next-line padding-line-between-statements, no-console
-  console.log(deviceSlides, '<<<<<<<<<<<<<<<Slides')
 
   const handles = useCssHandles(CSS_HANDLES)
-  const list = useListContext()?.list ?? []
-  const slides = React.Children.toArray(children).concat(list)
 
   return (
     <div style={{ width: '100%' }}>
